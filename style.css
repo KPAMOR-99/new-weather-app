@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 69%);
+    font-family: Nunito;
+   
+    margin: 10%;
+   
+}
+.main-b{
+    margin: 10% auto;
+    max-height: 100vh;
+    background-color:  hsl(0, 9%, 96%);
+    padding: 10px;
+    border-radius: 25px;
+  
+}
+
+.temperature{
+    font-size: 5rem;
+}
+.main-weather-info{
+    text-align: center;
+}
+.card{
+    background-color: #e7e5e5;
+    margin-bottom: 5px;
+}
+.right-side{
+   background-color:  hsl(0, 0%, 61%); 
+   border-radius: 0 20px 20px 0;
+   height: inherit;
+}
